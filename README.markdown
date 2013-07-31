@@ -10,4 +10,6 @@ It builds a static library with a simple `NSString` category with the following 
 
 Builds on Mac currently, haven't tested on iOS but should be easy to get it running over there too.
 
+You'll need to add `-ObjC` and `-all_load` to your linker flags to use the categories.
+
 Licensed under the same license as discount (BSD-style license).
