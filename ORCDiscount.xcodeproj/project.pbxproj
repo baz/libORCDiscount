@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD7839417A89C3200158FCD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD7839317A89C3200158FCD /* Cocoa.framework */; };
+		FDD783A517A89C3200158FCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD783A417A89C3200158FCD /* XCTest.framework */; };
+		FDD783A617A89C3200158FCD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD7839317A89C3200158FCD /* Cocoa.framework */; };
+		FDD783A917A89C3200158FCD /* libORCDiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD7839017A89C3200158FCD /* libORCDiscount.a */; };
+		FDD783AF17A89C3200158FCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD783AD17A89C3200158FCD /* InfoPlist.strings */; };
+		FDD783B117A89C3200158FCD /* ORCDiscountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783B017A89C3200158FCD /* ORCDiscountTests.m */; };
+		FDD783BE17A89EEC00158FCD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BC17A89EEC00158FCD /* config.h */; };
+		FDD783BF17A89EEC00158FCD /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BD17A89EEC00158FCD /* mkdio.h */; };
+		FDD783CC17A89F5700158FCD /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C017A89F5700158FCD /* Csio.c */; };
+		FDD783CD17A89F5700158FCD /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C117A89F5700158FCD /* emmatch.c */; };
+		FDD783CE17A89F5700158FCD /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C217A89F5700158FCD /* generate.c */; };
+		FDD783CF17A89F5700158FCD /* github_flavoured.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C317A89F5700158FCD /* github_flavoured.c */; };
+		FDD783D017A89F5700158FCD /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C417A89F5700158FCD /* html5.c */; };
+		FDD783D117A89F5700158FCD /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C517A89F5700158FCD /* markdown.c */; };
+		FDD783D217A89F5700158FCD /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783C617A89F5700158FCD /* markdown.h */; };
+		FDD783D317A89F5700158FCD /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C717A89F5700158FCD /* mkdio.c */; };
+		FDD783D417A89F5700158FCD /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C817A89F5700158FCD /* resource.c */; };
+		FDD783D517A89F5700158FCD /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C917A89F5700158FCD /* setup.c */; };
+		FDD783D617A89F5700158FCD /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CA17A89F5700158FCD /* tags.c */; };
+		FDD783D717A89F5700158FCD /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CB17A89F5700158FCD /* xml.c */; };
+		FDD783DA17A89F9300158FCD /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783D917A89F9300158FCD /* tags.h */; };
+		FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD783E317A8A11000158FCD /* NSString+ORCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */; };
+		FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E517A8A1CE00158FCD /* ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD783A717A89C3200158FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD7838817A89C3200158FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD7838F17A89C3200158FCD;
+			remoteInfo = Discount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD7839017A89C3200158FCD /* libORCDiscount.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libORCDiscount.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD7839317A89C3200158FCD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FDD7839617A89C3200158FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDD7839717A89C3200158FCD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDD7839817A89C3200158FCD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FDD7839B17A89C3200158FCD /* ORCDiscount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORCDiscount-Prefix.pch"; sourceTree = "<group>"; };
+		FDD783A317A89C3200158FCD /* ORCDiscountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORCDiscountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD783A417A89C3200158FCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDD783AC17A89C3200158FCD /* ORCDiscountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORCDiscountTests-Info.plist"; sourceTree = "<group>"; };
+		FDD783AE17A89C3200158FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD783B017A89C3200158FCD /* ORCDiscountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORCDiscountTests.m; sourceTree = "<group>"; };
+		FDD783BC17A89EEC00158FCD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = config/config.h; sourceTree = "<group>"; };
+		FDD783BD17A89EEC00158FCD /* mkdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mkdio.h; path = config/mkdio.h; sourceTree = "<group>"; };
+		FDD783C017A89F5700158FCD /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Csio.c; path = lib/discount/Csio.c; sourceTree = "<group>"; };
+		FDD783C117A89F5700158FCD /* emmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emmatch.c; path = lib/discount/emmatch.c; sourceTree = "<group>"; };
+		FDD783C217A89F5700158FCD /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = generate.c; path = lib/discount/generate.c; sourceTree = "<group>"; };
+		FDD783C317A89F5700158FCD /* github_flavoured.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = github_flavoured.c; path = lib/discount/github_flavoured.c; sourceTree = "<group>"; };
+		FDD783C417A89F5700158FCD /* html5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html5.c; path = lib/discount/html5.c; sourceTree = "<group>"; };
+		FDD783C517A89F5700158FCD /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = lib/discount/markdown.c; sourceTree = "<group>"; };
+		FDD783C617A89F5700158FCD /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = lib/discount/markdown.h; sourceTree = "<group>"; };
+		FDD783C717A89F5700158FCD /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mkdio.c; path = lib/discount/mkdio.c; sourceTree = "<group>"; };
+		FDD783C817A89F5700158FCD /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resource.c; path = lib/discount/resource.c; sourceTree = "<group>"; };
+		FDD783C917A89F5700158FCD /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = lib/discount/setup.c; sourceTree = "<group>"; };
+		FDD783CA17A89F5700158FCD /* tags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tags.c; path = lib/discount/tags.c; sourceTree = "<group>"; };
+		FDD783CB17A89F5700158FCD /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = lib/discount/xml.c; sourceTree = "<group>"; };
+		FDD783D917A89F9300158FCD /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tags.h; path = lib/discount/tags.h; sourceTree = "<group>"; };
+		FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ORCDiscount.h"; sourceTree = "<group>"; };
+		FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ORCDiscount.m"; sourceTree = "<group>"; };
+		FDD783E517A8A1CE00158FCD /* ORCDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCDiscount.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD7838D17A89C3200158FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD7839417A89C3200158FCD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD783A017A89C3200158FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD783A617A89C3200158FCD /* Cocoa.framework in Frameworks */,
+				FDD783A917A89C3200158FCD /* libORCDiscount.a in Frameworks */,
+				FDD783A517A89C3200158FCD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD7838717A89C3200158FCD = {
+			isa = PBXGroup;
+			children = (
+				FDD783BA17A89CB300158FCD /* External */,
+				FDD783BB17A89ED900158FCD /* Config */,
+				FDD7839917A89C3200158FCD /* Discount */,
+				FDD783AA17A89C3200158FCD /* DiscountTests */,
+				FDD7839217A89C3200158FCD /* Frameworks */,
+				FDD7839117A89C3200158FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD7839117A89C3200158FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7839017A89C3200158FCD /* libORCDiscount.a */,
+				FDD783A317A89C3200158FCD /* ORCDiscountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD7839217A89C3200158FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7839317A89C3200158FCD /* Cocoa.framework */,
+				FDD783A417A89C3200158FCD /* XCTest.framework */,
+				FDD7839517A89C3200158FCD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD7839517A89C3200158FCD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7839617A89C3200158FCD /* Foundation.framework */,
+				FDD7839717A89C3200158FCD /* CoreData.framework */,
+				FDD7839817A89C3200158FCD /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FDD7839917A89C3200158FCD /* Discount */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7839A17A89C3200158FCD /* Supporting Files */,
+				FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */,
+				FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */,
+				FDD783E517A8A1CE00158FCD /* ORCDiscount.h */,
+			);
+			name = Discount;
+			path = src;
+			sourceTree = "<group>";
+		};
+		FDD7839A17A89C3200158FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7839B17A89C3200158FCD /* ORCDiscount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD783AA17A89C3200158FCD /* DiscountTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD783AB17A89C3200158FCD /* Supporting Files */,
+				FDD783B017A89C3200158FCD /* ORCDiscountTests.m */,
+			);
+			name = DiscountTests;
+			path = tests;
+			sourceTree = "<group>";
+		};
+		FDD783AB17A89C3200158FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD783AC17A89C3200158FCD /* ORCDiscountTests-Info.plist */,
+				FDD783AD17A89C3200158FCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD783BA17A89CB300158FCD /* External */ = {
+			isa = PBXGroup;
+			children = (
+				FDD783D817A89F6000158FCD /* Discount */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		FDD783BB17A89ED900158FCD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FDD783BC17A89EEC00158FCD /* config.h */,
+				FDD783BD17A89EEC00158FCD /* mkdio.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		FDD783D817A89F6000158FCD /* Discount */ = {
+			isa = PBXGroup;
+			children = (
+				FDD783C017A89F5700158FCD /* Csio.c */,
+				FDD783C117A89F5700158FCD /* emmatch.c */,
+				FDD783C217A89F5700158FCD /* generate.c */,
+				FDD783C317A89F5700158FCD /* github_flavoured.c */,
+				FDD783C417A89F5700158FCD /* html5.c */,
+				FDD783C517A89F5700158FCD /* markdown.c */,
+				FDD783C617A89F5700158FCD /* markdown.h */,
+				FDD783C717A89F5700158FCD /* mkdio.c */,
+				FDD783C817A89F5700158FCD /* resource.c */,
+				FDD783C917A89F5700158FCD /* setup.c */,
+				FDD783D917A89F9300158FCD /* tags.h */,
+				FDD783CA17A89F5700158FCD /* tags.c */,
+				FDD783CB17A89F5700158FCD /* xml.c */,
+			);
+			name = Discount;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FDD7838E17A89C3200158FCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD783BE17A89EEC00158FCD /* config.h in Headers */,
+				FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */,
+				FDD783BF17A89EEC00158FCD /* mkdio.h in Headers */,
+				FDD783D217A89F5700158FCD /* markdown.h in Headers */,
+				FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */,
+				FDD783DA17A89F9300158FCD /* tags.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FDD7838F17A89C3200158FCD /* ORCDiscount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD783B417A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscount" */;
+			buildPhases = (
+				FDD7838C17A89C3200158FCD /* Sources */,
+				FDD7838D17A89C3200158FCD /* Frameworks */,
+				FDD7838E17A89C3200158FCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORCDiscount;
+			productName = Discount;
+			productReference = FDD7839017A89C3200158FCD /* libORCDiscount.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FDD783A217A89C3200158FCD /* ORCDiscountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD783B717A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscountTests" */;
+			buildPhases = (
+				FDD7839F17A89C3200158FCD /* Sources */,
+				FDD783A017A89C3200158FCD /* Frameworks */,
+				FDD783A117A89C3200158FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD783A817A89C3200158FCD /* PBXTargetDependency */,
+			);
+			name = ORCDiscountTests;
+			productName = DiscountTests;
+			productReference = FDD783A317A89C3200158FCD /* ORCDiscountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD7838817A89C3200158FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Neat.io;
+			};
+			buildConfigurationList = FDD7838B17A89C3200158FCD /* Build configuration list for PBXProject "ORCDiscount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDD7838717A89C3200158FCD;
+			productRefGroup = FDD7839117A89C3200158FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD7838F17A89C3200158FCD /* ORCDiscount */,
+				FDD783A217A89C3200158FCD /* ORCDiscountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD783A117A89C3200158FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD783AF17A89C3200158FCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD7838C17A89C3200158FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD783D017A89F5700158FCD /* html5.c in Sources */,
+				FDD783CC17A89F5700158FCD /* Csio.c in Sources */,
+				FDD783D717A89F5700158FCD /* xml.c in Sources */,
+				FDD783D117A89F5700158FCD /* markdown.c in Sources */,
+				FDD783D317A89F5700158FCD /* mkdio.c in Sources */,
+				FDD783D617A89F5700158FCD /* tags.c in Sources */,
+				FDD783CE17A89F5700158FCD /* generate.c in Sources */,
+				FDD783CD17A89F5700158FCD /* emmatch.c in Sources */,
+				FDD783D517A89F5700158FCD /* setup.c in Sources */,
+				FDD783E317A8A11000158FCD /* NSString+ORCDiscount.m in Sources */,
+				FDD783CF17A89F5700158FCD /* github_flavoured.c in Sources */,
+				FDD783D417A89F5700158FCD /* resource.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD7839F17A89C3200158FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD783B117A89C3200158FCD /* ORCDiscountTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD783A817A89C3200158FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD7838F17A89C3200158FCD /* ORCDiscount */;
+			targetProxy = FDD783A717A89C3200158FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD783AD17A89C3200158FCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD783AE17A89C3200158FCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD783B217A89C3200158FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = config;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDD783B317A89C3200158FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = config;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDD783B517A89C3200158FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
+				PRODUCT_NAME = ORCDiscount;
+			};
+			name = Debug;
+		};
+		FDD783B617A89C3200158FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
+				PRODUCT_NAME = ORCDiscount;
+			};
+			name = Release;
+		};
+		FDD783B817A89C3200158FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					config,
+					src,
+				);
+				INFOPLIST_FILE = "tests/ORCDiscountTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = ORCDiscountTests;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDD783B917A89C3200158FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					config,
+					src,
+				);
+				INFOPLIST_FILE = "tests/ORCDiscountTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = ORCDiscountTests;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD7838B17A89C3200158FCD /* Build configuration list for PBXProject "ORCDiscount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD783B217A89C3200158FCD /* Debug */,
+				FDD783B317A89C3200158FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD783B417A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD783B517A89C3200158FCD /* Debug */,
+				FDD783B617A89C3200158FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDD783B717A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD783B817A89C3200158FCD /* Debug */,
+				FDD783B917A89C3200158FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD7838817A89C3200158FCD /* Project object */;
+}
