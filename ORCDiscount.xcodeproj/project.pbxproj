@@ -433,7 +433,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = ORCDiscount;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -442,7 +445,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = ORCDiscount;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -523,6 +529,7 @@
 				FDD783B617A89C3200158FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDD783B717A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscountTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +538,7 @@
 				FDD783B917A89C3200158FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
