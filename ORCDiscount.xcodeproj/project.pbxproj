@@ -274,7 +274,7 @@
 		FDD7838817A89C3200158FCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Neat.io;
 			};
 			buildConfigurationList = FDD7838B17A89C3200158FCD /* Build configuration list for PBXProject "ORCDiscount" */;
@@ -429,6 +429,7 @@
 		FDD783B517A89C3200158FCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -441,6 +442,7 @@
 		FDD783B617A89C3200158FCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
