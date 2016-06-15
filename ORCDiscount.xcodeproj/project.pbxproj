@@ -28,9 +28,9 @@
 		FDD783D617A89F5700158FCD /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CA17A89F5700158FCD /* tags.c */; };
 		FDD783D717A89F5700158FCD /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CB17A89F5700158FCD /* xml.c */; };
 		FDD783DA17A89F9300158FCD /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783D917A89F9300158FCD /* tags.h */; };
-		FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */; };
 		FDD783E317A8A11000158FCD /* NSString+ORCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */; };
-		FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E517A8A1CE00158FCD /* ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E517A8A1CE00158FCD /* ORCDiscount.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,8 +224,8 @@
 				FDD783BE17A89EEC00158FCD /* config.h in Headers */,
 				FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */,
 				FDD783BF17A89EEC00158FCD /* mkdio.h in Headers */,
-				FDD783D217A89F5700158FCD /* markdown.h in Headers */,
 				FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */,
+				FDD783D217A89F5700158FCD /* markdown.h in Headers */,
 				FDD783DA17A89F9300158FCD /* tags.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
