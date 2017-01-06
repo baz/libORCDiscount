@@ -274,7 +274,7 @@
 		FDD7838817A89C3200158FCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Neat.io;
 			};
 			buildConfigurationList = FDD7838B17A89C3200158FCD /* Build configuration list for PBXProject "ORCDiscount" */;
